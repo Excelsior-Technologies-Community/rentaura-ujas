@@ -5,7 +5,8 @@ import kb from "../assets/img/imageb.png";
 import "./Detail.css";
 import uj from "../assets/img/footer.png";
 import vectorIcon from "../assets/img/vector.png";
-
+import avtar from "../assets/img/Avatar.png";
+import map from "../assets/img/Maps.png";
 const Detail = () => {
   return (
     <div>
@@ -160,150 +161,318 @@ const Detail = () => {
         </div>
 
         <div className="header-section mb-5">
-  <div className="header-section1">
-    <h1>Getting around Bay Street Corridor, Toronto, ON</h1>
-    <p>
-      The area around Bay Street Corridor, Toronto, ON is by far a
-      walker's paradise. With all services and amenities nearby, you
-      really don't need a car to run your errands. Regarding transit,
-      there are first-class public transportation options you can
-      take advantage of. Bay Street Corridor, Toronto, ON is in a very
-      bikeable community, so you'll have a developed cycling
-      infrastructure at your disposal.
-      <br />
-      Powered by{" "}
-      <a href="#" className="text-white text-decoration-underline">
-        Walk Score<sup>&reg;</sup>
-      </a>
-    </p>
-  </div>
+          <div className="header-section1">
+            <h1>Getting around Bay Street Corridor, Toronto, ON</h1>
+            <p>
+              The area around Bay Street Corridor, Toronto, ON is by far a
+              walker's paradise. With all services and amenities nearby, you
+              really don't need a car to run your errands. Regarding transit,
+              there are first-class public transportation options you can take
+              advantage of. Bay Street Corridor, Toronto, ON is in a very
+              bikeable community, so you'll have a developed cycling
+              infrastructure at your disposal.
+              <br />
+              Powered by{" "}
+              <a href="#" className="text-white text-decoration-underline">
+                Walk Score<sup>&reg;</sup>
+              </a>
+            </p>
+          </div>
 
-  {/* Score Cards Section */}
-  <div className="container my-3">
-    <div className="row g-3 flex-column align-items-start">
-      <div className="col-12">
-        <div className="score-card walk-score">
-          <div className="score-border">
-            <div className="score-text" style={{ color: "#185f3e" }}>
-              99
+          {/* Score Cards Section */}
+          <div className="container my-3">
+            <div className="row g-3 flex-column align-items-start">
+              <div className="col-12">
+                <div className="score-card walk-score">
+                  <div className="score-border">
+                    <div className="score-text" style={{ color: "#185f3e" }}>
+                      99
+                    </div>
+                  </div>
+                  <div>
+                    <h5
+                      style={{
+                        color: "#185f3e",
+                        fontWeight: "bold",
+                        fontSize: "1.5rem",
+                      }}
+                    >
+                      Walker's <br /> Paradise
+                    </h5>
+                    <p style={{ color: "gray" }}>Walk Score&reg;</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12">
+                <div className="score-card transit-score">
+                  <div className="score-border">
+                    <div className="score-text" style={{ color: "#004aad" }}>
+                      100
+                    </div>
+                  </div>
+                  <div>
+                    <h5
+                      style={{
+                        color: "#004aad",
+                        fontWeight: "bold",
+                        fontSize: "1.5rem",
+                      }}
+                    >
+                      Rider's <br /> Paradise
+                    </h5>
+                    <p style={{ color: "gray" }}>Transit Score&reg;</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-12">
+                <div className="score-card bike-score">
+                  <div className="score-border">
+                    <div className="score-text" style={{ color: "#68b723" }}>
+                      87
+                    </div>
+                  </div>
+                  <div>
+                    <h5
+                      style={{
+                        color: "#68b723",
+                        fontWeight: "bold",
+                        fontSize: "1.5rem",
+                      }}
+                    >
+                      Very <br /> Bikeable
+                    </h5>
+                    <p style={{ color: "gray" }}>Bike Score&reg;</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div>
-            <h5
-              style={{
-                color: "#185f3e",
-                fontWeight: "bold",
-                fontSize: "1.5rem",
-              }}
-            >
-              Walker's <br /> Paradise
-            </h5>
-            <p style={{ color: "gray" }}>Walk Score&reg;</p>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="mt-5">
+          <h2 className="fw-bold">5-year fixed mortgage rates</h2>
+          <p>
+            The
+            <span className="text-success fw-bold">
+              {" "}
+              mortgage rate and payment you see
+            </span>
+            see here is an estimate.{" "}
+          </p>
+        </div>
+      </div>
+
+      <div className="container p-4">
+        <div className="row g-3">
+          <div className="col-6 col-md-4">
+            <small className="text-muted">Transaction type</small>
+            <div>Buying a home</div>
+          </div>
+          <div className="col-6 col-md-4">
+            <small className="text-muted">Rate type</small>
+            <div>Fixed</div>
+          </div>
+          <div className="col-6 col-md-4">
+            <small className="text-muted">Purchased price</small>
+            <div>$800,000</div>
+          </div>
+          <div className="col-6 col-md-4">
+            <small className="text-muted">Down Payment</small>
+            <div>$120,000</div>
+          </div>
+          <div className="col-6 col-md-4">
+            <small className="text-muted">%</small>
+            <div>15</div>
+          </div>
+          <div className="col-6 col-md-4">
+            <small className="text-muted">Rate term</small>
+            <div>5-year</div>
+          </div>
+          <div className="col-6 col-md-4">
+            <small className="text-muted">Location</small>
+            <div>Toronto, ON</div>
+          </div>
+          <div className="col-6 col-md-4">
+            <small className="text-muted">Amortization</small>
+            <div>25-year</div>
+          </div>
+          <div className="col-6 col-md-4">
+            <small className="text-muted">Occupancy</small>
+            <div>Owner-occupied</div>
+          </div>
+          <div className="col-6 col-md-4">
+            <small className="text-muted">Payment frequency</small>
+            <div select>Monthly</div>
           </div>
         </div>
       </div>
 
-      <div className="col-12">
-        <div className="score-card transit-score">
-          <div className="score-border">
-            <div className="score-text" style={{ color: "#004aad" }}>
-              100
+      <div className="max-w-2xl mx-5 bg-white p-6 rounded-xl shadow-md col-lg-6">
+        <table className="w-full border-collapse">
+          <thead>
+            <tr className="text-left border-b">
+              <th className="p-3">Rate</th>
+              <th className="p-3">Provider</th>
+              <th className="p-3">Payment</th>
+              <th className="p-3"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="border-b">
+              <td className="p-3 text-lg font-semibold fw-bold">4.7%</td>
+              <td className="p-3 flex items-center gap-3">
+                <img
+                  src={avtar}
+                  alt="Big 6 Bank"
+                  className="w-10 h-10 rounded-full"
+                />
+                Big 6 Bank
+              </td>
+              <td className="p-3 fw-bold">$3,982/mo</td>
+              <td className="p-3">
+                <button className="text-bg-success text-white px-4 py-2 rounded-4">
+                  Inquire
+                </button>
+              </td>
+            </tr>
+            <tr className="border-b">
+              <td className="p-3 text-lg font-semibold fw-bold">4.7%</td>
+              <td className="p-3 flex items-center gap-3">
+                <img
+                  src={avtar}
+                  alt="Canadian Lender"
+                  className="w-10 h-10 rounded-full"
+                />
+                Canadian Lender
+              </td>
+              <td className="p-3 fw-bold">$3,982/mo</td>
+              <td className="p-3">
+                <button className="text-bg-success text-white px-4 py-2 rounded-4">
+                  Inquire
+                </button>
+              </td>
+            </tr>
+            <tr className="border-b">
+              <td className="p-3 text-lg font-semibold fw-bold">4.7%</td>
+              <td className="p-3 flex items-center gap-3">
+                <img
+                  src={avtar}
+                  alt="RBC Royal Bank"
+                  className="w-10 h-10 rounded-full"
+                />
+                RBC Royal Bank
+              </td>
+              <td className="p-3 fw-bold">$3,982/mo</td>
+              <td className="p-3">
+                <button className="text-bg-success text-white px-4 py-2 rounded-4">
+                  Inquire
+                </button>
+              </td>
+            </tr>
+            <tr className="border-b">
+              <td className="p-3 text-lg font-semibold fw-bold">4.7%</td>
+              <td className="p-3 flex items-center gap-3">
+                <img
+                  src={avtar}
+                  alt="Meridian Credit Union"
+                  className="w-10 h-10 rounded-full"
+                />
+                Meridian Credit Union
+              </td>
+              <td className="p-3 fw-bold">$3,982/mo</td>
+              <td className="p-3">
+                <button className="text-bg-success  text-white px-4 py-2 rounded-4">
+                  Inquire
+                </button>
+              </td>
+            </tr>
+            <tr className="border-b">
+              <td className="p-3 text-lg font-semibold fw-bold">4.7%</td>
+              <td className="p-3 flex items-center gap-3">
+                <img
+                  src={avtar}
+                  alt="Alterna Savings"
+                  className="w-10 h-10 rounded-full"
+                />
+                Alterna Savings
+              </td>
+              <td className="p-3 fw-bold">$3,982/mo</td>
+              <td className="p-3">
+                <button className="text-bg-success text-white px-4 py-2 rounded-4">
+                  Inquire
+                </button>
+              </td>
+            </tr>
+           
+          </tbody>
+        </table>
+        <div className="text-center  mt-4 text-success cursor-pointer">
+            <p>Show more</p>  
             </div>
-          </div>
-          <div>
-            <h5
-              style={{
-                color: "#004aad",
-                fontWeight: "bold",
-                fontSize: "1.5rem",
-              }}
-            >
-              Rider's <br /> Paradise
-            </h5>
-            <p style={{ color: "gray" }}>Transit Score&reg;</p>
-          </div>
+      </div>
+
+      <div className="container">
+        <div className="col-8">
+          <p className="text-end">
+            Powered by <span className="text-success ">ratehub.ca</span>
+          </p>
         </div>
       </div>
 
-      <div className="col-12">
-        <div className="score-card bike-score">
-          <div className="score-border">
-            <div className="score-text" style={{ color: "#68b723" }}>
-              87
+      <section>
+        <div className="container">
+             <div className="col-md-6">
+              <h2 className="fw-bold">LOCATION</h2>
+              <p>Location for Detached Homes and Townhouses in GTA Region ON</p>
+              <div className="map-img">
+              <img src={map} alt="" />
+                  <div className="img-data d-flex gap-3">
+                      <select name="schools" id="s1" className="">
+                          <option value="school">School</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option></select>
+                          <select name="schools" id="s1" className="">
+                          <option value="1">Transportation</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option></select>
+                          <select name="schools" id="s1" className="text-bg-success">
+                          <option value="1">Groccery Shop</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option></select>
+                          <select name="schools" id="s1" className="">
+                          <option value="1">Shopping</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option></select>
+                          <select name="schools" id="s1" className="">
+                          <option value="1">Food & Drink</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option></select>
+                          <select name="schools" id="s1" className="">
+                          <option value="1">Workship</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option></select>
+                  </div>
+              </div>
+
             </div>
+           
           </div>
-          <div>
-            <h5
-              style={{
-                color: "#68b723",
-                fontWeight: "bold",
-                fontSize: "1.5rem",
-              }}
-            >
-              Very <br /> Bikeable
-            </h5>
-            <p style={{ color: "gray" }}>Bike Score&reg;</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
+      </section>
 
-<div className="container">
-  <div className="mt-5">
-    <h2 className="fw-bold">5-year fixed mortgage rates</h2>
-    <p>
-      The<span className="text-success fw-bold"> mortgage rate and payment you see</span>see here is an estimate. </p>
-    </div>
-    </div>
-       
+      <div className="container">
+             <div className="col-md-6 mt-5">
+              <h2 className="fw-bold mt-5">point of intrest</h2>
+              <p>points of intrest for 253 birkdale  Rd</p>
+                </div>
+                </div>
 
-     <div className="container p-4">
-      <div className="row g-3">
-        <div className="col-6 col-md-4">
-          <small className="text-muted">Transaction type</small>
-          <div>Buying a home</div>
-        </div>
-        <div className="col-6 col-md-4">
-          <small className="text-muted">Rate type</small>
-          <div>Fixed</div>
-        </div>
-        <div className="col-6 col-md-4">
-          <small className="text-muted">Purchased price</small>
-          <div>$800,000</div>
-        </div>
-        <div className="col-6 col-md-4">
-          <small className="text-muted">Down Payment</small>
-          <div>$120,000</div>
-        </div>
-        <div className="col-6 col-md-4">
-          <small className="text-muted">%</small>
-          <div>15</div>
-        </div>
-        <div className="col-6 col-md-4">
-          <small className="text-muted">Rate term</small>
-          <div>5-year</div>
-        </div>
-        <div className="col-6 col-md-4">
-          <small className="text-muted">Location</small>
-          <div>Toronto, ON</div>
-        </div>
-        <div className="col-6 col-md-4">
-          <small className="text-muted">Amortization</small>
-          <div>25-year</div>
-        </div>
-        <div className="col-6 col-md-4">
-          <small className="text-muted">Occupancy</small>
-          <div>Owner-occupied</div>
-        </div>
-        <div className="col-6 col-md-4">
-          <small className="text-muted">Payment frequency</small>
-          <div select>Monthly</div>
-        </div>
-      </div>
-    </div>
+
+
+
       <footer className="footer">
         <div className="container">
           <div className="row">
