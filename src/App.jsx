@@ -10,6 +10,7 @@ import Detail from './pages/Detail'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Detaillisting from './pages/Detaillisting'
 import Agent from './pages/Agent'
+import Mexico from './pages/Mexico'
 
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
       <Route path="/home3" element={<Detail/>}></Route>
       <Route path="/home4" element={<Detaillisting/>}></Route>
       <Route path="/home5" element={<Agent/>}></Route>
+      <Route path="/home6" element={<Mexico/>}></Route>
+
       
      </Routes>
       

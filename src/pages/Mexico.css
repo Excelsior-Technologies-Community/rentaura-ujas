@@ -1,0 +1,459 @@
+body {
+    font-family: "Bellefair" !important;
+    }
+    .navbar-brand img{
+    margin-left: -80px;
+    }
+    .navbarstyle{
+    padding-right: 190px;
+    }
+    .linkstyle{
+    padding-left: 10px;
+    color: black;
+    }
+    .paddingstyle1{
+    margin-right: -280px;
+    margin-top: 10px;
+    }
+    .paddingstyle{
+    margin-left: 200px;
+    margin-right: 10px;
+    }
+    .btnstyle{
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #0E694B;
+    border-radius: 20px;
+    padding: 5px 6px;
+    background-color: #0E694B;
+    }
+    .hero-section {
+    padding: 20px 0;
+    height: 100vh;
+    }
+    .hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    width: 600px;
+    margin-top: -90px;
+    }
+    .hero-section p{
+    font-size: 1rem;
+    }
+    .hero-section .highlight {
+    color: #29743a;
+    }
+    .hero-section .text-red {
+    color: red;
+    }
+    .search-bar {
+    display: flex;
+    gap: 10px;
+    }
+    .search-bar select,
+    .search-bar input {
+    flex-grow: 1;
+    }
+    .property-image img {
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    padding-top: 60px;
+    }
+    .center-box {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    }
+    .top-box {
+    background: white;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    }
+    .nav-tabs {
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    width: fit-content;
+    }
+    .nav-tabs .nav-link {
+    color: black;
+    font-weight: 500;
+    border: none;
+    }
+    .nav-tabs .nav-link.active {
+    background-color: #0E694B;
+    color: white;
+    border: none;
+    }
+    .bottom-box {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 0 0 10px 10px;
+    }
+    .search-container input {
+    border: none;
+    outline: none;
+    background: transparent;
+    }
+    .search-btn {
+    background-color: #0E694B;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    }
+    .search-btn:hover {
+    background-color: #0E694B;
+    }
+    .search-icon{
+    position: absolute;
+    padding-left: 10px; 
+    padding-top: 10px;   
+    }
+    .search-padding{
+    padding-left: 40px !important;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .liststyle1{
+    margin-top: 40px !important;
+    margin-left: 70px !important;
+    }
+    li::marker{
+    color: lightgray;
+    }
+    
+    
+    
+    
+    
+    .content-section {
+    padding: 0px 0;
+    }
+    .content-box {
+    text-align: left;
+    }
+    .content-box2 {
+    text-align: left;
+    padding-left: 60px !important;
+    }
+    .content-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    .content-box p{
+    font-size: 1.1rem;
+    color: rgb(104, 103, 103);
+    padding-top: 10px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .blog-container {
+    margin: 0 auto;
+    }
+    .blog-card img {
+    width: 550px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    }
+    .blog-card {
+    background: #fff;
+    padding-top: 30px;
+    }
+    .blog-card h5 {
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+    }
+    .read-more {
+    color: #144d19;
+    font-weight: bold;
+    text-decoration: none;
+    }
+    .read-more i{
+    padding-left: 20px !important;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .blog-card1 img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    }
+    .blog-card1 {
+    background: #fff;
+    padding-top: 30px;
+    }
+    .blog-card1 h5 {
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding-bottom: 10px;
+    }
+    .linkcolor{
+        color: #666666;
+    }
+    .read-more1 {
+    color: #0E694B;
+    font-weight: bold;
+    text-decoration: none;
+    }
+    .read-more1 i{
+    padding-left: 20px !important;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .News-title {
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+    }
+    .news-image {
+    border-radius: 10px;
+    }
+    .blog-card2 {
+    background: #fff;
+    }
+    .blog-card2 h5 {
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+    }
+    .read-more2 {
+    color: #0E694B;
+    font-weight: bold;
+    text-decoration: none;
+    }
+    .read-more2 i{
+    padding-left: 20px !important;
+    }
+    .blog-card3 {
+    background: #fff;
+    padding-left: 50px;
+    }
+    .blog-card4 {
+    background: #fff;
+    padding-left: 50px;
+    padding-top: 10px;
+    }
+    .see-more-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    }
+    .see-more-btn .btn1{
+    border-radius: 13px;
+    border: 1px solid #999999;
+    background-color: #ffffff;
+    width: 80%;
+    padding: 5px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .report-section-title {
+    font-weight: bold;
+    margin-bottom: 30px;
+    }
+    .report-image {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    }
+    .blog-card5 {
+    background: #fff;
+    }
+    .blog-card5 h5 {
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+    }
+    .blog-card6 img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    }
+    .blog-card6 {
+    background: #fff;
+    }
+    .blog-card6 h5 {
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding-bottom: 10px;
+    }
+    .read-more3 {
+    color: #0E694B;
+    font-weight: bold;
+    text-decoration: none;
+    }
+    .read-more3 i{
+    padding-left: 20px !important;
+    }
+    
+        
+    
+    
+    
+    
+    .lifestyle-title {
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+    }
+    .lifestyle-image {
+    border-radius: 10px;
+    }
+    .blog-card7 {
+    background: #fff;
+    }
+    .blog-card7 h5 {
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding-bottom: 10px;
+    }
+    .read-more4 {
+    color: #0E694B;
+    font-weight: bold;
+    text-decoration: none;
+    }
+    .read-more4 i{
+    padding-left: 20px !important;
+    }
+    .blog-card8 {
+    background: #fff;
+    padding-left: 50px;
+    }
+    .blog-card8 {
+    background: #fff;
+    padding-left: 50px;
+    padding-top: 10px;
+    }
+    .see-more-btn1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    }
+    .see-more-btn1 .btn2{
+    border-radius: 13px;
+    border: 1px solid #999999;
+    background-color: #ffffff;
+    width: 80%;
+    padding: 5px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .search-Nearby{
+    background-color: white;
+    }
+    .Nearby h1{
+    color: #0E694B;
+    font-weight: bold;
+    font-size: 2rem;
+    }
+    .Nearby h2{
+    color: rgb(69, 67, 67);
+    font-weight: bold;
+    }
+    .liststyle3{
+    color: rgb(106, 104, 104);
+    font-size: 19px;
+    }
+    .liststyle3 li{
+    padding-top: 5px;
+    padding-left: 10px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .footer {
+    background-color: rgb(20, 83, 57);
+    color: white;
+    padding: 40px 0;
+    border-radius: 15px;
+    }
+    .footer-logo img {
+    width: 100px;
+    padding-bottom: 5px;
+    }
+    .textstyle{
+    color: rgb(172,170,170);
+    font-size: 18px;
+    }
+    .footer a {
+    color: #a39d9d;
+    text-decoration: none !important;
+    }
+    .footer input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: #3a3838;
+    border:1px solid #3a3838 ;
+    border-radius: 3px;
+    }
+    .footer button {
+    width: 100%;
+    background-color: #00c4ff;
+    border: none;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 3px;
+    }
+    .text-style1{
+    color: rgb(172,170,170);
+    padding-left: 20px;
+    }
+    .last-section{
+    padding-left: 60px;
+    color: rgb(172,170,170);
+    }
