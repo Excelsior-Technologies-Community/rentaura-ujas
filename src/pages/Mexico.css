@@ -173,17 +173,17 @@ body {
     .blog-container {
     margin: 0 auto;
     }
-    .blog-card img {
+    .blog-card-one img {
     width: 550px;
-    height: 400px;
+    /* height: 400px; */
     object-fit: cover;
     border-radius: 10px;
     }
-    .blog-card {
+    .blog-card-one {
     background: #fff;
     padding-top: 30px;
     }
-    .blog-card h5 {
+    .blog-card-one h5 {
     font-weight: bold;
     font-size: 1.6rem;
     padding-bottom: 10px;
@@ -201,15 +201,15 @@ body {
     
     
     
+/*     
     
-    
-    .blog-card1 img {
+    .blog-card-one img {
     width: 350px;
     height: 200px;
     object-fit: cover;
     border-radius: 10px;
     }
-    .blog-card1 {
+    .blog-card-one {
     background: #fff;
     padding-top: 30px;
     }
@@ -217,7 +217,7 @@ body {
     font-weight: bold;
     font-size: 1.4rem;
     padding-bottom: 10px;
-    }
+    } */
     .linkcolor{
         color: #666666;
     }
