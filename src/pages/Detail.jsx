@@ -7,6 +7,14 @@ import uj from "../assets/img/footer.png";
 import vectorIcon from "../assets/img/vector.png";
 import avtar from "../assets/img/Avatar.png";
 import map from "../assets/img/Maps.png";
+import hn from "../assets/img/Image12.png";
+import ju from "../assets/img/Image13.png";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import uns from "../assets/img/Imagex1.png";
+import fo from "../assets/img/Imagex2.png";
+import foc from "../assets/img/Image3.png";
+
 const Detail = () => {
   return (
     <div>
@@ -407,12 +415,11 @@ const Detail = () => {
                 </button>
               </td>
             </tr>
-           
           </tbody>
         </table>
         <div className="text-center  mt-4 text-success cursor-pointer">
-            <p>Show more</p>  
-            </div>
+          <p>Show more</p>
+        </div>
       </div>
 
       <div className="container">
@@ -425,170 +432,430 @@ const Detail = () => {
 
       <section>
         <div className="container">
-             <div className="col-md-6">
-              <h2 className="fw-bold">LOCATION</h2>
-              <p>Location for Detached Homes and Townhouses in GTA Region ON</p>
-              <div className="map-img">
+          <div className="col-md-6">
+            <h2 className="fw-bold">LOCATION</h2>
+            <p>Location for Detached Homes and Townhouses in GTA Region ON</p>
+            <div className="map-img">
               <img src={map} alt="" />
-                  <div className="img-data d-flex gap-3">
-                      <select name="schools" id="s1" className="">
-                          <option value="school">School</option>
-                          <option value="2">2</option>
-                          <option value="3">3</option></select>
-                          <select name="schools" id="s1" className="">
-                          <option value="1">Transportation</option>
-                          <option value="2">2</option>
-                          <option value="3">3</option></select>
-                          <select name="schools" id="s1" className="text-bg-success">
-                          <option value="1">Groccery Shop</option>
-                          <option value="2">2</option>
-                          <option value="3">3</option></select>
-                          <select name="schools" id="s1" className="">
-                          <option value="1">Shopping</option>
-                          <option value="2">2</option>
-                          <option value="3">3</option></select>
-                          <select name="schools" id="s1" className="">
-                          <option value="1">Food & Drink</option>
-                          <option value="2">2</option>
-                          <option value="3">3</option></select>
-                          <select name="schools" id="s1" className="">
-                          <option value="1">Workship</option>
-                          <option value="2">2</option>
-                          <option value="3">3</option></select>
-                  </div>
+              <div className="img-data d-flex gap-3">
+                <select name="schools" id="s1" className="">
+                  <option value="school">School</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+                <select name="schools" id="s1" className="">
+                  <option value="1">Transportation</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+                <select name="schools" id="s1" className="text-bg-success">
+                  <option value="1">Groccery Shop</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+                <select name="schools" id="s1" className="">
+                  <option value="1">Shopping</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+                <select name="schools" id="s1" className="">
+                  <option value="1">Food & Drink</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+                <select name="schools" id="s1" className="">
+                  <option value="1">Workship</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
               </div>
-
             </div>
-           
           </div>
+        </div>
       </section>
 
       <div className="container">
-             <div className="col-md-6 mt-5">
-              <h2 className="fw-bold mt-5">point of intrest</h2>
-              <p>points of intrest for 253 birkdale  Rd</p>
+        <div className="col-md-6 mt-5">
+          <h2 className="fw-bold mt-5">point of intrest</h2>
+          <p>points of intrest for 253 birkdale Rd</p>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="col-md-6">
+          <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+            <p className="">location </p>
+            <p className="">name </p>
+            <p className="">distance </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="container">
+        <div className="py-5 d-flex flex-wrap align-items-start  section-faq">
+          <div className="image-container me-5">
+            <img src={hn} alt="Building" className="img-fluid img-big" />
+            <img src={ju} alt="Building Small" className="small-img" />
+          </div>
+          <div className="faq-section">
+            <h2 className="faq-header">Frequently asked question</h2>
+            <p className="pt-2">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+
+            <div className="faq-category">General</div>
+            <div className="accordion" id="faqAccordion">
+              <div className="accordion-item">
+                <h2 className="accordion-header" id="headingOne">
+                  <button
+                    className="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    What is Mexico Property Search?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  className="accordion-collapse collapse show"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div className="accordion-body">
+                    Mexico Property Search is an online real estate marketplace
+                    that helps you find the right home or real estate
+                    investment.
+                  </div>
                 </div>
+              </div>
+              <div className="accordion-item">
+                <h2 className="accordion-header" id="headingTwo">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Do I have to pay to use property search tools?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div className="accordion-body">
+                    No, the property search tools are free to use.
+                  </div>
                 </div>
+              </div>
+            </div>
 
+            <div className="faq-category">Home buyers and home sellers</div>
+            <div className="accordion">
+              <div className="accordion-item">
+                <h2 className="accordion-header" id="headingThree">
+                  <button
+                    className="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    How can I be notified if there are new listings?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  className="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div className="accordion-body">
+                    You can sign up for alerts to be notified about new
+                    listings.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-
-
-      <footer className="footer">
+        <div className="container mt-5 mb-5">
+          <div className="d-flex justify-content-between align-items-center mb-3">
+            <h2 className="fw-bold">Top listings for you</h2>
+          </div>
+          <div className="row pt-5">
+            <div className="col-md-4">
+              <div className="card listing-card">
+                <div className="position-relative">
+                  <span className="top-listing-badge ">Similar Prpperties</span>
+                  <img
+                    src={uns}
+                    className="card-img-top listing-img"
+                    alt="Listing Image"
+                  />
+                </div>
+                <div className="card-body">
+                  <h5 className="card-title fw-bold">
+                    Title of the Listing will come...
+                  </h5>
+                  <p className="text-muted pt-1">
+                    <i className="fas fa-map-marker-alt icon-red"></i> Pluto
+                    Street, Indonesia
+                  </p>
+                  <div className="d-flex justify-content-between text-muted boxstyle">
+                    <span>
+                      <i className="fas fa-table-cells-large icon-green"></i>{" "}
+                      800 Sq Ft
+                    </span>
+                    <span>
+                      <i className="fas fa-bed icon-green"></i> 1 Bedroom
+                    </span>
+                    <span>
+                      <i className="fas fa-bathtub icon-green"></i> 2 Bathroom
+                    </span>
+                  </div>
+                  <hr />
+                  <p className="mt-2 price">
+                    <span className="dollar">$581,339.00</span>{" "}
+                    <span className="usd">USD</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="card listing-card">
+                <div className="position-relative">
+                  <span className="top-listing-badge">Top Listing</span>
+                  <img
+                    src={fo}
+                    className="card-img-top listing-img"
+                    alt="Listing Image"
+                  />
+                </div>
+                <div className="card-body">
+                  <h5 className="card-title fw-bold">
+                    Title of the Listing will come...
+                  </h5>
+                  <p className="text-muted pt-1">
+                    <i className="fas fa-map-marker-alt icon-red"></i> Pluto
+                    Street, Indonesia
+                  </p>
+                  <div className="d-flex justify-content-between text-muted boxstyle">
+                    <span>
+                      <i className="fas fa-table-cells-large icon-green"></i>{" "}
+                      800 Sq Ft
+                    </span>
+                    <span>
+                      <i className="fas fa-bed icon-green"></i> 1 Bedroom
+                    </span>
+                    <span>
+                      <i className="fas fa-bathtub icon-green"></i> 2 Bathroom
+                    </span>
+                  </div>
+                  <hr />
+                  <p className="mt-2 price">
+                    <span className="dollar">$581,339.00</span>{" "}
+                    <span className="usd">USD</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="card listing-card">
+                <div className="position-relative">
+                  <span className="top-listing-badge">Top Listing</span>
+                  <img
+                    src={foc}
+                    className="card-img-top listing-img"
+                    alt="Listing Image"
+                  />
+                </div>
+                <div className="card-body">
+                  <h5 className="card-title fw-bold">
+                    Title of the Listing will come...
+                  </h5>
+                  <p className="text-muted pt-1">
+                    <i className="fas fa-map-marker-alt icon-red"></i> Pluto
+                    Street, Indonesia
+                  </p>
+                  <div className="d-flex justify-content-between text-muted boxstyle">
+                    <span>
+                      <i className="fas fa-table-cells-large icon-green"></i>{" "}
+                      800 Sq Ft
+                    </span>
+                    <span>
+                      <i className="fas fa-bed icon-green"></i> 1 Bedroom
+                    </span>
+                    <span>
+                      <i className="fas fa-bathtub icon-green"></i> 2 Bathroom
+                    </span>
+                  </div>
+                  <hr />
+                  <p className="mt-2 price">
+                    <span className="dollar">$581,339.00</span>{" "}
+                    <span className="usd">USD</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="container">
           <div className="row">
-            <div className="col-md-3 section-footer">
-              <div className="footer-logo">
-                <img src={uj} alt="" />
+            <div className="col-md-6 pt-5">
+              <p className="text-success fs-2 fw-bold">Nearby Neighborhoods</p>
+              <p className="text-muted fs-3 fw-bold">Nearby Cities</p>
+            </div>
+
+          <div className="col-md-3">
+            <p className="pt-5">
+              Scarborough Homes for Sale Etobicoke Homes for Sale North York
+              Homes for Sale Forest Hill Homes for Sale East York Homes for Sale
+              Leaside Homes for Sale High Park Homes for Sale Niagara Homes for
+              Sale Leslieville Homes for Sale Rosedale Homes for Sale Don Mills
+              Homes for Sale
+            </p>
+          </div>
+          <div className="col-md-3">
+            <p className="pt-5">
+              Scarborough Homes for Sale Etobicoke Homes for Sale North York
+              Homes for Sale Forest Hill Homes for Sale East York Homes for Sale
+              Leaside Homes for Sale High Park Homes for Sale Niagara Homes for
+              Sale Leslieville Homes for Sale Rosedale Homes for Sale Don Mills
+              Homes for Sale
+            </p>
+          </div>
+          </div>
+         
+
+        </div>
+        <footer className="footer">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-3 section-footer">
+                <div className="footer-logo">
+                  <img src={uj} alt="" />
+                </div>
+                <p className="textstyle">
+                  Our one-stop shopfor buying, <br />
+                  selling ,and renting property
+                </p>
               </div>
-              <p className="textstyle">
-                Our one-stop shopfor buying, <br />
-                selling ,and renting property
-              </p>
-            </div>
-            <div className="col-md-3 link-style">
-              <ul className="list-unstyled">
-                <li className="mb-2">
-                  <a href="#" className="link-light">
-                    Buy
-                  </a>
-                </li>
-                <p style={{ color: "rgb(172, 170, 170)" }}>Homes for sale</p>
-                <li className="mb-2">
-                  <a href="#" className="link-light">
-                    Rent
-                  </a>
-                </li>
-                <p style={{ color: "rgb(172, 170, 170)" }}>
-                  Apartments for rent
+              <div className="col-md-3 link-style">
+                <ul className="list-unstyled">
+                  <li className="mb-2">
+                    <a href="#" className="link-light">
+                      Buy
+                    </a>
+                  </li>
+                  <p style={{ color: "rgb(172, 170, 170)" }}>Homes for sale</p>
+                  <li className="mb-2">
+                    <a href="#" className="link-light">
+                      Rent
+                    </a>
+                  </li>
+                  <p style={{ color: "rgb(172, 170, 170)" }}>
+                    Apartments for rent
+                  </p>
+                  <p style={{ color: "rgb(172, 170, 170)" }}>Houses for rent</p>
+                  <li className="mb-2">
+                    <a href="#" className="link-light">
+                      Commercial
+                    </a>
+                  </li>
+                  <p style={{ color: "rgb(172, 170, 170)" }}>
+                    Properties for lease
+                  </p>
+                  <p style={{ color: "rgb(172, 170, 170)" }}>
+                    Office space for lease
+                  </p>
+                  <p style={{ color: "rgb(172, 170, 170)" }}>
+                    Commercial real estate
+                  </p>
+                  <li className="mb-2">
+                    <a href="#" className="link-light">
+                      Agents/Brokers
+                    </a>
+                  </li>
+                  <p style={{ color: "rgb(172, 170, 170)" }}>
+                    I need an agent/broker
+                  </p>
+                </ul>
+              </div>
+              <div className="col-md-3">
+                <ul className="list-unstyled">
+                  <li className="mb-2">
+                    <a href="#" className="link-light">
+                      About Company
+                    </a>
+                  </li>
+                  <p style={{ color: "rgb(172, 170, 170)" }}>About</p>
+                  <p style={{ color: "rgb(172, 170, 170)" }}>Blog</p>
+                  <p style={{ color: "rgb(172, 170, 170)" }}>Career</p>
+                  <p style={{ color: "rgb(172, 170, 170)" }}>
+                    Demographics/Sitemap
+                  </p>
+                  <li className="mb-2">
+                    <a href="#" className="link-light">
+                      Social
+                    </a>
+                  </li>
+                  <p style={{ color: "rgb(172, 170, 170)" }}>Facebook</p>
+                  <p style={{ color: "rgb(172, 170, 170)" }}>Youtube</p>
+                  <p style={{ color: "rgb(172, 170, 170)" }}>
+                    <i
+                      className="fa fa-multiply"
+                      style={{ paddingLeft: "3px" }}
+                    ></i>
+                  </p>
+                </ul>
+              </div>
+              <div className="col-md-3">
+                <h5>Contact Us</h5>
+                <p>
+                  <i className="fas fa-map-marker-alt"></i>{" "}
+                  <span className="text-style1">
+                    123 Anywhere Street, Any <br />
+                    City, 12345 ST, Indonesia
+                  </span>
                 </p>
-                <p style={{ color: "rgb(172, 170, 170)" }}>Houses for rent</p>
-                <li className="mb-2">
-                  <a href="#" className="link-light">
-                    Commercial
-                  </a>
-                </li>
-                <p style={{ color: "rgb(172, 170, 170)" }}>
-                  Properties for lease
+                <p>
+                  <i className="fa-solid fa-phone"></i>{" "}
+                  <span className="text-style1">+123 456 7890 </span>
                 </p>
-                <p style={{ color: "rgb(172, 170, 170)" }}>
-                  Office space for lease
+                <p>
+                  <i className="fas fa-envelope"></i>{" "}
+                  <span className="text-style1">hello@rentaura.com</span>
                 </p>
-                <p style={{ color: "rgb(172, 170, 170)" }}>
-                  Commercial real estate
-                </p>
-                <li className="mb-2">
-                  <a href="#" className="link-light">
-                    Agents/Brokers
-                  </a>
-                </li>
-                <p style={{ color: "rgb(172, 170, 170)" }}>
-                  I need an agent/broker
-                </p>
-              </ul>
-            </div>
-            <div className="col-md-3">
-              <ul className="list-unstyled">
-                <li className="mb-2">
-                  <a href="#" className="link-light">
-                    About Company
-                  </a>
-                </li>
-                <p style={{ color: "rgb(172, 170, 170)" }}>About</p>
-                <p style={{ color: "rgb(172, 170, 170)" }}>Blog</p>
-                <p style={{ color: "rgb(172, 170, 170)" }}>Career</p>
-                <p style={{ color: "rgb(172, 170, 170)" }}>
-                  Demographics/Sitemap
-                </p>
-                <li className="mb-2">
-                  <a href="#" className="link-light">
-                    Social
-                  </a>
-                </li>
-                <p style={{ color: "rgb(172, 170, 170)" }}>Facebook</p>
-                <p style={{ color: "rgb(172, 170, 170)" }}>Youtube</p>
-                <p style={{ color: "rgb(172, 170, 170)" }}>
-                  <i
-                    className="fa fa-multiply"
-                    style={{ paddingLeft: "3px" }}
-                  ></i>
-                </p>
-              </ul>
-            </div>
-            <div className="col-md-3">
-              <h5>Contact Us</h5>
-              <p>
-                <i className="fas fa-map-marker-alt"></i>{" "}
-                <span className="text-style1">
-                  123 Anywhere Street, Any <br />
-                  City, 12345 ST, Indonesia
-                </span>
-              </p>
-              <p>
-                <i className="fa-solid fa-phone"></i>{" "}
-                <span className="text-style1">+123 456 7890 </span>
-              </p>
-              <p>
-                <i className="fas fa-envelope"></i>{" "}
-                <span className="text-style1">hello@rentaura.com</span>
-              </p>
+              </div>
             </div>
           </div>
-        </div>
-        <hr />
-        <div className="container">
-          <div className="row last-section">
-            <div className="col-md-9">
-              The trademarks MLS®, Multiple Listing Service® and the associated
-              logos are owned by The Canadian Real Estate Association (CREA) and
-              identify the quality of services provided by real estate
-              professionals who are members of CREA. The trademarks REALTOR®,
-              REALTORS®, and the REALTOR® logo are controlled by The Canadian
-              Real Estate Association (CREA) and identify real estate
-              professionals who are members of CREA.
+          <hr />
+          <div className="container">
+            <div className="row last-section">
+              <div className="col-md-9">
+                The trademarks MLS®, Multiple Listing Service® and the
+                associated logos are owned by The Canadian Real Estate
+                Association (CREA) and identify the quality of services provided
+                by real estate professionals who are members of CREA. The
+                trademarks REALTOR®, REALTORS®, and the REALTOR® logo are
+                controlled by The Canadian Real Estate Association (CREA) and
+                identify real estate professionals who are members of CREA.
+              </div>
             </div>
           </div>
-        </div>
-      </footer>
+        </footer>
+      </div>
     </div>
   );
 };

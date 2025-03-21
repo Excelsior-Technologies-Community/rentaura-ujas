@@ -2,7 +2,7 @@ body {
     font-family: "Bellefair" !important;
     }
     .navbar-brand img{
-    margin-left: -80px;
+    margin-left: 0px;
     }
     .navbarstyle{
     padding-right: 190px;
@@ -24,7 +24,7 @@ body {
     text-decoration: none;
     border: 1px solid #29743a;
     border-radius: 20px;
-    padding: 5px 6px;
+    padding: 8px 21px;
     background-color: #29743a;
     }
     .hero-section {

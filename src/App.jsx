@@ -8,6 +8,8 @@ import { Route, Routes } from 'react-router-dom'
 import Hometwo from './pages/Hometwo'
 import Detail from './pages/Detail'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Detaillisting from './pages/Detaillisting'
+import Agent from './pages/Agent'
 
 
 function App() {
@@ -20,6 +22,9 @@ function App() {
       <Route path="/home" element={<Homepage/>}></Route>
       <Route path="/home2" element={<Hometwo/>}></Route>
       <Route path="/home3" element={<Detail/>}></Route>
+      <Route path="/home4" element={<Detaillisting/>}></Route>
+      <Route path="/home5" element={<Agent/>}></Route>
+      
      </Routes>
       
     </>
