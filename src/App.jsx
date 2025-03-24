@@ -11,6 +11,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Detaillisting from './pages/Detaillisting'
 import Agent from './pages/Agent'
 import Mexico from './pages/Mexico'
+import Mexicoone from "./pages/Mexicoone";
+import About from './pages/About'
+
 
 
 function App() {
@@ -26,6 +29,8 @@ function App() {
       <Route path="/home4" element={<Detaillisting/>}></Route>
       <Route path="/home5" element={<Agent/>}></Route>
       <Route path="/home6" element={<Mexico/>}></Route>
+      <Route path="/home7" element={<Mexicoone/>}></Route>
+      <Route path="/home8" element={<About/>}></Route>
 
       
      </Routes>

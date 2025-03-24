@@ -10,6 +10,8 @@ import A8 from "../assets/img/A8.png";
 import A9 from "../assets/img/A9.png";
 import uj from "../assets/img/footer.png";
 
+
+
 const Mexico = () => {
   return (
     <>
