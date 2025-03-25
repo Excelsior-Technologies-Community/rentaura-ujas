@@ -13,6 +13,9 @@ import Agent from './pages/Agent'
 import Mexico from './pages/Mexico'
 import Mexicoone from "./pages/Mexicoone";
 import About from './pages/About'
+import Cont from './pages/Cont';
+import Error from './pages/Error'
+
 
 
 
@@ -31,6 +34,8 @@ function App() {
       <Route path="/home6" element={<Mexico/>}></Route>
       <Route path="/home7" element={<Mexicoone/>}></Route>
       <Route path="/home8" element={<About/>}></Route>
+      <Route path="*" element={<Error/>}></Route>
+
 
       
      </Routes>

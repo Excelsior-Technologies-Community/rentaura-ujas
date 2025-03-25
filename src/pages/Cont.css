@@ -1,0 +1,342 @@
+body {
+    font-family: "Bellefair" !important;
+    }
+    .navbar-brand img{
+    margin-left: -80px;
+    }
+    .navbarstyle{
+    padding-right: 190px;
+    }
+    .linkstyle{
+    padding-left: 10px;
+    color: black;
+    }
+    .paddingstyle1{
+    margin-right: -280px;
+    margin-top: 10px;
+    }
+    .paddingstyle{
+    margin-left: 200px;
+    margin-right: 10px;
+    }
+    .btnstyle{
+    color: #ffffff;
+    text-decoration: none;
+    border: 1px solid #29743a;
+    border-radius: 20px;
+    padding: 5px 6px;
+    background-color: #29743a;
+    }
+    .hero-section {
+    padding: 20px 0;
+    height: 100vh;
+    }
+    .hero-section h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    width: 600px;
+    margin-top: -90px;
+    }
+    .hero-section p{
+    font-size: 1rem;
+    }
+    .hero-section .highlight {
+    color: #29743a;
+    }
+    .hero-section .text-red {
+    color: red;
+    }
+    .search-bar {
+    display: flex;
+    gap: 10px;
+    }
+    .search-bar select,
+    .search-bar input {
+    flex-grow: 1;
+    }
+    .property-image img {
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    padding-top: 60px;
+    }
+    .center-box {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    }
+    .top-box {
+    background: white;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    }
+    .nav-tabs {
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    width: fit-content;
+    }
+    .nav-tabs .nav-link {
+    color: black;
+    font-weight: 500;
+    border: none;
+    }
+    .nav-tabs .nav-link.active {
+    background-color: #0C6842;
+    color: white;
+    border: none;
+    }
+    .bottom-box {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 0 0 10px 10px;
+    }
+    .search-container input {
+    border: none;
+    outline: none;
+    background: transparent;
+    }
+    .search-btn {
+    background-color: #0C6842;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 20px;
+    }
+    .search-btn:hover {
+    background-color: #095a37;
+    }
+    .search-icon{
+    position: absolute;
+    padding-left: 10px; 
+    padding-top: 10px;   
+    }
+    .search-padding{
+    padding-left: 40px !important;
+    }
+    
+    
+    
+    
+    
+    .contact-us{
+    height: 50vh;
+    }
+    .contact-heading{
+    font-size: 3rem;
+    }
+    .contact-text{
+    font-size: 1.3rem;
+    color: #666666;
+    padding-top: 20px;
+    }
+    
+    
+    
+    
+    
+    .info-card {
+    text-align: left;
+    padding: 30px;
+    border-radius: 12px;
+    }
+    .icon-container {
+    background-color: #f3f3f3;
+    border-radius: 25%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    }
+    .icon-container i {
+    font-size: 24px;
+    color: #2e614f;
+    }
+    .info-title {
+    font-weight: 700;
+    color: #2e614f;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    }
+    .info-text {
+    color: #6c757d;
+    }
+    
+    
+    
+    
+    
+    
+    .Advertising{
+    padding-top: 50px;
+    }
+    .header-title {
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+    }
+    .header-text{
+    font-size: 1.2rem;
+    color: #666666;
+    }
+    .highlight-link {
+    color: #0E694B;
+    font-weight: 600;
+    text-decoration: underline;
+    }
+    .form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    }
+    .form-label{
+    color: #666666;
+    }
+    .form-control{
+    border-radius: 15px !important;
+    padding: 12px !important;
+    border-color: #666666 !important;
+    }
+    .form-control::placeholder{
+    color: #B8B8B8 !important;
+    }
+    .form-select{
+    border-radius: 15px !important;
+    padding: 12px !important;
+    border-color: #666666 !important;
+    color: #B8B8B8 !important;
+    }
+    .btnsubmit {
+    background-color: #1c5d42;
+    color: #fff;
+    border: none;
+    padding: 10px 27px;
+    border-radius: 15px;
+    text-decoration: none;
+    }
+    .end-text p{
+    font-size: 1.1rem;
+    width: 500px;
+    color: #666666;
+    padding-left: 30px;
+    }
+    .end-text a{
+    text-decoration: none;
+    color: #0E694B;
+    font-size: 1.2rem;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .blog-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    }
+    .blog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    }
+    .blog-header h2 {
+    font-weight: bold;    
+    font-size: 3rem;
+    }
+    .blog-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    }
+    .blog-card {
+    background: #fff;
+    padding: 15px;
+    text-align: left;
+    }
+    .blog-card h5 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    }
+    .read-more {
+    color: #144d19;
+    font-weight: bold;
+    text-decoration: none;
+    }
+    .pagination {
+    display: inline-block;
+    padding-left: 450px !important;
+    margin-top:40px !important;
+    }
+    .pagination-text{
+    text-align: center;
+    padding-top: 20px;
+    }
+    .pagination a {
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 30px;
+    border-radius: 10px;
+    }
+    
+    
+    
+    
+    
+    .footer {
+    background-color: rgb(20, 83, 57);
+    color: white;
+    padding: 40px 0;
+    border-radius: 15px;
+    }
+    .footer-logo img {
+    width: 100px;
+    padding-bottom: 5px;
+    }
+    .textstyle{
+    color: rgb(172,170,170);
+    font-size: 18px;
+    }
+    .footer a {
+    color: #a39d9d;
+    text-decoration: none !important;
+    }
+    .footer input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: #3a3838;
+    border:1px solid #3a3838 ;
+    border-radius: 3px;
+    }
+    .footer button {
+    width: 100%;
+    background-color: #00c4ff;
+    border: none;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 3px;
+    }
+    .text-style1{
+    color: rgb(172,170,170);
+    padding-left: 20px;
+    }
+    .last-section{
+    padding-left: 60px;
+    color: rgb(172,170,170);
+    }
